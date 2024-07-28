@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="../static/css/sgin_up.css" />
+</head>
+<body>
+    <form method="post">
+        <div class="container">
+            <div class="right-column">
+                <div class="section-text">
+                    <span class="secondary-headline">Sign Up</span>
+                </div>
+                <div class="form-5-fields-checkbox-button">
+                    <div class="text-field">
+                        <div class="label">Company Email</div>
+                        <div class="field">
+                            <input type="string" name="email" placeholder="Enter your Email Address" value="{{email}}"/>
+                        </div>
+                    </div>
+                    <div class="text-field">
+                        <div class="label">Name</div>
+                        <div class="field">
+                            <input type="string" name="name" placeholder="Enter your Name" value="{{name}}"/>
+                        </div>
+                    </div>
+                    <div class="container-1">
+                        <div class="text-field-1">
+                            <div class="password_group">
+                                <div class="label-2">Password</div>
+                                <div class="field">
+                                    <input type="password" name="password" placeholder="Enter your password" value="{{password}}"/>
+                                </div>
+                                <div class="description">
+                                    <span class="description-3">Password must be at least 8 characters long <br />and include uppercase, lowercase, numbers, and special characters.</span>
+                                </div>
+                            </div>
+                            <div class="fields-group">
+                                <div class="label">Phone</div>
+                                <div class="field">
+                                    <input type="phone" name = "phone" placeholder="000-0000-0000" value = "{{phone}}"/>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="container-1">
+                        
+                        <div class="fields-group-2">
+                            <div></div>
+                            <div class="label">Department</div>
+                            <div class="field">
+                                <select id="department" name="department">
+                                    <option value="">--Department--</option>
+                                    {% for department in departments %}
+                                        <option value="{{ department.value }}">{{ department.text }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="fields-group-1">
+                        <div class="label-1">Profile Image</div>
+                        <div class="frame-2301">
+                            <div class="button">
+                                <span class="button-text">Upload</span>
+                            </div>
+                            <div class="img-inform">
+                                <div class="description">
+                                    <span class="description-4">Image size must be at least 400px by 400px.<br /></span>
+                                </div>
+                                <div class="description-1">
+                                    <span class="description-5">File size must be under 2MB.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sep"></div>
+                    <div class="sign-up"><input type="submit" value = "Sign Up"> </div>
+                </form>
+                <div class="horizontal-line"></div>  
+                <a href="login">Sign In</a>  
+            </div>
+                
+            </div>
+        </div>
+    
+    
+</body>
+</html>

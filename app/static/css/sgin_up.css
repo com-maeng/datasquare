@@ -1,0 +1,251 @@
+.body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+    .container {
+    background-color: var(--default-white, #FFFFFF);
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 80px;
+    width: 1440px;
+    box-sizing: border-box;
+}
+.right-column {
+    margin: 104.5px 80px 104.5px 0;
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    box-sizing: border-box;
+}
+.section-text {
+    margin: 0 0 48px 0;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+.secondary-headline {
+    font-weight: var(--heading-2-font-weight, 700);
+    font-size: 42px;
+    line-height: var(--heading-2-line-height, 1.1);
+    color: var(--cool-gray-90, #21272A);
+}
+.form-5-fields-checkbox-button {
+    margin: 0 0 48px 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.text-field {
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.text-field-1 {
+    position: relative;
+    padding: 0 0 83px 0;
+    box-sizing: border-box;
+}
+.label, .label-1, .label-2 {
+    margin: 0 0 8px 0;
+    display: inline-block;
+    align-self: flex-start;
+    font-weight: var(--body-s-font-weight, 400);
+    font-size: 14px;
+    line-height: var(--body-s-line-height, 1.4);
+    color: var(--cool-gray-90, #21272A);
+}
+.field, .field-1, .field-2 {
+    display: flex;
+    border-bottom: 1px solid var(--cool-gray-30, #C1C7CD);
+    background-color: var(--cool-gray-10, #F2F4F8);
+    padding: 13px 16px 12px 16px;
+    width: 560px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.field input {
+            background-color: var(--cool-gray-10, #F2F4F8); /* 동일한 배경색 */
+            border: none; /* 테두리 제거 */
+            box-sizing: border-box; /* 내부 크기 조정 */
+            width: 100%; /* 부모 요소의 너비에 맞추기 */
+            outline: none; /* 클릭 시 발생하는 테두리 제거 */
+        }
+.text, .text-1 {
+    font-weight: var(--body-m-font-weight, 400);
+    font-size: 16px;
+    line-height: var(--body-m-line-height, 1.4);
+    color: var(--cool-gray-60, #697077);
+}
+.container-1 {
+    position: relative;
+    margin: 0 0 16px 0;
+    padding: 0 0 72px 0;
+    box-sizing: border-box;
+}
+
+.password_group {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.description, .description-1 {
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+.description-3, .description-4, .description-5 {
+    font-weight: var(--body-xs-font-weight, 400);
+    font-size: 12px;
+    line-height: var(--body-xs-line-height, 1.4);
+    color: var(--cool-gray-60, #697077);
+}
+.fields-group, .fields-group-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.icon-jam-icons-outline-logos-search,
+.icon-jam-icons-outline-logos-chevron-down {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+}
+.vector, .vector-1 {
+    width: 18.2px;
+    height: 18.2px;
+}
+.fields-group-1 {
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.frame-2301 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.button {
+    border: 2px solid var(--primary-60, #0F62FE);
+    margin: 0 10px 0 0;
+    display: flex;
+    padding: 11px 0.5px;
+    width: 103px;
+    box-sizing: border-box;
+}
+.button-text {
+    font-weight: var(--button-s-font-weight, 500);
+    font-size: 14px;
+    letter-spacing: var(--button-s-letter-spacing, 0.5px);
+    line-height: var(--button-s-line-height, 1);
+    color: var(--primary-60, #0F62FE);
+}
+.img-inform {
+    margin: 0 0 3px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.buttons-group {
+    display: flex;
+    width: 560px;
+    box-sizing: border-box;
+}
+.button-1 {
+    border: 2px solid var(--primary-60, #0F62FE);
+    background-color: var(--primary-60, #0F62FE);
+    display: flex;
+    padding: 14px 0.8px;
+    width: 560px;
+    height: fit-content;
+    box-sizing: border-box;
+}
+.button-text-1 {
+    font-weight: var(--button-m-font-weight, 500);
+    font-size: 16px;
+    letter-spacing: var(--button-m-letter-spacing, 0.5px);
+    line-height: var(--button-m-line-height, 1);
+    color: var(--default-white, #FFFFFF);
+}
+.sep {
+    background-color: #DDE1E6;
+    margin: 0 0 47px 0;
+    width: 560px;
+    height: 0;
+}
+.sign-in {
+    align-self: flex-start;
+    font-weight: var(--body-s-font-weight, 400);
+    font-size: 14px;
+    line-height: var(--body-s-line-height, 1.4);
+    color: var(--primary-90, #001D6C);
+}
+.placeholder-picture {
+    background-image: url('../assets/images/placeholder_picture.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 1024px;
+}
+.horizontal-line {
+    border-top: 1px solid #DDE1E6;
+    margin: 20px 0;
+    width: 560px;
+}
+
+
+.field select {
+    width: 100%; /* 드롭다운의 너비를 부모 div에 맞추기 */
+    padding: 8px; /* 내부 여백 설정 */
+    border: none; /* 부모 div의 테두리와 일치시키기 */
+    background-color: var(--cool-gray-10, #F2F4F8); /* 부모 div와 동일한 배경 색상 */
+    border-radius: 4px; /* 모서리 둥글게 */
+    font-size: 14px; /* 글자 크기 설정 */
+    box-sizing: border-box; /* 박스 사이징 설정 */
+}
+        /* 선택된 옵션 스타일 */
+select:focus {
+    border-color: #007BFF; /* 포커스 시 테두리 색상 변경 */
+    outline: none; /* 기본 포커스 아웃라인 제거 */
+}
+
+.sign-up{
+    background-color: var(--cool-gray-10, #0F62FE);
+    padding: 13px 16px 12px 16px;
+    width: fit-content;
+    width: 560px;
+    box-sizing: border-box;
+    align-self: flex-start;
+
+}
+.sign-up input {
+        border: none; /* 테두리 제거 */
+        box-sizing: border-box; /* 내부 크기 조정 */
+        width: 100%; /* 부모 요소의 너비에 맞추기 */
+        outline: none; /* 클릭 시 발생하는 테두리 제거 */
+        background-color: var(--cool-gray-10,#0F62FE);
+        color :#F2F4F8;
+    }
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: inherit; /* 부모 요소의 텍스트 색상 상속 */
+}
